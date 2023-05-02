@@ -26,6 +26,7 @@ Usage:
 	- `import std;` -> `import std.a; import std.b; ... import std.z;`
 		- selective imports need to be checked with a bunch of `__traits(compiles)` (needs access to compiler options)
 		- need to delete the package.d files, so that they won't accidentally be reduced again, or add them to the reject list
+- refactor single imports / copy-paste content into file
 - interactive UI / vscode integration for running things on-demand
 	- start dustmite session UI:
 		```
