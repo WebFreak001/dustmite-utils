@@ -1,0 +1,5 @@
+name "dustmite-utils"
+description "Utilities to interactively improve dustmite's reduction times on D projects"
+authors "webfreak"
+dependency "libdparse" version="~>0.22.0"
+license "MIT"

@@ -1,0 +1,16 @@
+.dub
+docs.json
+__dummy.html
+docs/
+/dustmite-utils
+dustmite-utils.so
+dustmite-utils.dylib
+dustmite-utils.dll
+dustmite-utils.a
+dustmite-utils.lib
+dustmite-utils-test-*
+*.exe
+*.pdb
+*.o
+*.obj
+*.lst
