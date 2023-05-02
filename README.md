@@ -57,3 +57,7 @@ Usage:
 	- show live lines-of-code graph + code tree that shows remaining files and folders
 	- interactive manual removal of code in editor (when applied, stops dustmite, applies diff to reduced output, restarts dustmite on the replaced reduced output)
 	- be able to checkpoint, to later test and revert to checkpoints with modified test script
+	- clean up imports inside files
+		- merge all imports into global imports, so they can be often checked for removal at the start
+		- for selective imports, when removal is attempted, remove entire import
+	- auto-remove all references to 0-size modules
