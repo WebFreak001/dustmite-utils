@@ -55,3 +55,4 @@ Usage:
 		- since dustmite at the start of an iteration tries larger removals, such as deleting entire files, it will try deleting modules again that previously were only kept due to dead imports
 	- show live lines-of-code graph + code tree that shows remaining files and folders
 	- interactive manual removal of code in editor (when applied, stops dustmite, applies diff to reduced output, restarts dustmite on the replaced reduced output)
+	- be able to checkpoint, to later test and revert to checkpoints with modified test script
